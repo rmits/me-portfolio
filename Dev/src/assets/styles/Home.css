@@ -1,0 +1,26 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.nameCard {
+    color: white;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 12px;
+}
+
+#nameText {
+    color: rgb(45, 112, 220);
+
+}
+
+.homeImage {
+    display: inline-block;
+    margin-left: 200px;
+    
+}
+
+.dropText {
+    color: rgb(209, 148, 142);
+}

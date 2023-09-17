@@ -1,0 +1,10 @@
+:root {
+  --dark: rgb(17, 7, 7);
+  --alt: rgb(80, 3, 99);
+}
+
+#root {
+  background-color: black;
+}
+
+
