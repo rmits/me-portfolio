@@ -7,6 +7,8 @@
   color:white;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .headerTitle {
@@ -16,13 +18,14 @@
 }
 
 .headerTitle h1 {
-  margin-left: 10px;
-  text-align: center;
+  margin-left: 15px;
+  text-align: left;
 }
 
 .navbar {
-  text-align: right;
-  margin-top: 30px;
+  display: flex;
+  flex-direction: right;
+  margin-top: 15px;
   color: white;
   margin-left: 100px;
 }

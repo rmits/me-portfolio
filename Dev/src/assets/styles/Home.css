@@ -6,7 +6,7 @@
 .nameCard {
     color: white;
     text-align: left;
-    padding-top: 50px;
+    margin-top: 50px;
     font-size: 12px;
 }
 
@@ -24,3 +24,4 @@
 .dropText {
     color: rgb(209, 148, 142);
 }
+
