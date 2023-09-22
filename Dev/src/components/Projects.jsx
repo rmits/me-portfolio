@@ -1,5 +1,4 @@
 import { Grid, IconButton } from "@mui/material";
-import { red } from "@mui/material/colors";
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 const projectData = [
@@ -13,8 +12,12 @@ const projectData = [
         href: 'https://drive.google.com/file/d/1YvA5iwEqM-y9Ikl9NeWpP-yOHNgMJhq7/view',
         image: <img src="src\assets\images\thought-bubble.png" alt="Thought Bubble" width={'10%'}></img>,
         borderColor: 'red'
+    }, {
+        name: <span><h1>Cat and Dog Gallery:</h1>Cute cats and dogs?? Here is a cool app with some cats and dogs, user has to have an account before viewing.</span>,
+        href: 'https://project-two-20323fc10aa2.herokuapp.com/',
+        image: <img src="src\assets\images\cat-dog.jpeg" alt="CatDog" width={'10%'}></img>,
+        borderColor: 'orange'
     }
-
 ];
 
 
