@@ -30,7 +30,7 @@ const Contact = () => {
         <>
             <Grid container style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
                 <Grid item style={{marginBottom: '10%'}}>
-                    <img src="src\assets\images\email.gif" alt="Clipboard" width={'300px'}></img>
+                    <img src="src/assets/images/email.gif" alt="Clipboard" width={'300px'}></img>
                 </Grid>
                 <Grid item style={{ marginTop: '3%' }}>
                     <form style={{ display: 'flex', flexDirection: 'column', fontSize: '24px', textAlign: 'left', color: 'white' }} ref={form} onSubmit={sendEmail}>

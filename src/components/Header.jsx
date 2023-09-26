@@ -1,5 +1,6 @@
 import '../assets/styles/Header.css';
-import { Avatar, Breadcrumbs, Link, Grid, } from '@mui/material';
+import { Link } from 'react-router-dom';
+import { Avatar, Breadcrumbs, Grid } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import EngineeringIcon from '@mui/icons-material/Engineering';
@@ -32,7 +33,7 @@ const Header = () => {
             <header>
                 <Grid container style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}} className="headerContainer">
                     <Grid item className="headerTitle">
-                        <Avatar alt="Ryan Pic" style={{border: 'dotted thick white'}} src='/src/assets/images/flower.jpg' sx={{ width: 100, height: 100 }} />
+                        <Avatar alt="Ryan Pic" style={{border: 'dotted thick white'}} src='src/assets/images/flower.jpg' sx={{ width: 100, height: 100 }} />
                         <h1>Ry.Mits</h1>
                     </Grid>
                     <Grid item style={{justifyContent: 'right', marginTop: '5px'}} className='navbar'>
@@ -41,10 +42,8 @@ const Header = () => {
                                 {navItems.map((item, index) => (
                                     <Link
                                         key={index}
-                                        underline="hover"
-                                        sx={{ display: 'flex', alignItems: 'center', color: 'white' }}
-                                        color={'white'}
-                                        href={item.path}
+                                        style={{ display: 'flex', alignItems: 'center', color: 'white', textDecoration: 'none' }}
+                                        to={item.path}
                                     >
                                         {item.icon}
                                         {item.name}

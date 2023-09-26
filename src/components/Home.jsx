@@ -33,11 +33,11 @@ const Home = () => {
                     </Box>
                 </Grid>
                 <Grid item xs={6} className='homeImage'>
-                    <img src='\src\assets\images\Ryan Mitchell-logos_transparent.png' alt='Ryan Logo' width='80%' style={{marginRight: '7%'}}></img>
+                    <img src='src/assets/images/Ryan Mitchell-logos_transparent.png' alt='Ryan Logo' width='80%' style={{marginRight: '7%'}}></img>
                 </Grid>
             </Grid>
         </>
     )
-}
+};
 
 export default Home;
