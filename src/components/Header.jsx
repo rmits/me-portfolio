@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Avatar, Breadcrumbs, Grid } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
-import EngineeringIcon from '@mui/icons-material/Engineering';
+import RyanFlowerAvi from '../assets/images/flower.jpg';
 import DesignServicesIcon from '@mui/icons-material/DesignServices';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 
@@ -33,7 +33,7 @@ const Header = () => {
             <header>
                 <Grid container style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}} className="headerContainer">
                     <Grid item className="headerTitle">
-                        <Avatar alt="Ryan Pic" style={{border: 'dotted thick white'}} src='src/assets/images/flower.jpg' sx={{ width: 100, height: 100 }} />
+                        <Avatar alt="Ryan Pic" style={{border: 'dotted thick white'}} src={RyanFlowerAvi} sx={{ width: 100, height: 100 }} />
                         <h1>Ry.Mits</h1>
                     </Grid>
                     <Grid item style={{justifyContent: 'right', marginTop: '5px'}} className='navbar'>
