@@ -1,6 +1,6 @@
 :root {
     --dark: black;
-    --alt: rgb(80, 3, 99);
+    --alt:  rgb(209, 148, 142);
   }
 
 .headerContainer {
@@ -27,5 +27,43 @@
   flex-direction: right;
   margin-top: 15px;
   color: white;
-  margin-left: 100px;
+  gap: 1rem;
+  text-align: none;
+  text-decoration: none;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 15px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.aviPic {
+  border: 5px dotted white;
+  transition: border 0.3s ease;
+}
+
+.aviPic:hover {
+  border: 10px dotted rgb(209, 148, 142);
+  cursor: pointer;
+}
+
+.navItemActive {
+  display: flex;
+  align-items: center;
+  color: purple;
+  border-bottom: 2px solid purple;
+  margin-left: 15px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navItem:hover {
+  color: rgb(209, 148, 142);
+  cursor: pointer;
 }
