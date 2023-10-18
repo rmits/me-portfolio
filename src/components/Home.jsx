@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../assets/styles/Home.css';
 import RyanLogo from '../assets/images/Ryan Mitchell-logos_transparent.png';
+import HomePic from '../assets/images/home-background.jpg';
 import { FormControlLabel, Switch, Zoom, Box, Typography, Grid } from '@mui/material';
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
 
     return (
         <>
-            <Grid container style={{display: 'flex', justifyContent: 'space-evenly'}} spacing={2} className='homeContainer'>
+            <Grid container className='homeContainer'>
                 <Grid item style={{marginTop: '6%'}} xs={6} className='nameCard'>
                     <h1>Hello All! My Name Is</h1>
                     <h1 id="nameText">Ryan Mitchell</h1>

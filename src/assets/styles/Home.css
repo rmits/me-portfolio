@@ -1,6 +1,13 @@
 .homeContainer {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url('../images/home-background.jpg');
+    background-size: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: thin solid white;
 }
 
 .nameCard {
@@ -12,13 +19,6 @@
 
 #nameText {
     color: rgb(45, 112, 220);
-
-}
-
-.homeImage {
-    display: inline-block;
-    margin-left: 200px;
-    
 }
 
 .dropText {
