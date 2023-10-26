@@ -34,12 +34,54 @@
 
 .navItem {
   display: flex;
+  margin-top: 10px;
+  justify-content: right;
   align-items: center;
   color: white;
   margin-left: 15px;
   text-align: right;
   text-decoration: none;
   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .headerContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerTitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .navMenu {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+
+.navMenu {
+  display: none;
+}
+
+
+.navMenuItem {
+  text-decoration: none;
+  color: black;
 }
 
 .aviPic {
@@ -55,8 +97,8 @@
 .navItemActive {
   display: flex;
   align-items: center;
-  color: purple;
-  border-bottom: 2px solid purple;
+  color: rgb(45, 112, 220);
+  border-bottom: 2px solid rgb(45, 112, 220);
   margin-left: 15px;
   text-align: right;
   text-decoration: none;

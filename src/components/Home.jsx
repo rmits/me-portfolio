@@ -34,8 +34,8 @@ const Home = () => {
                         </Zoom>
                     </Box>
                 </Grid>
-                <Grid item xs={6} className='homeImage'>
-                    <img src={RyanLogo} alt='Ryan Logo' width='80%' style={{marginRight: '7%'}}></img>
+                <Grid item className='homeImage'>
+                    <img src={RyanLogo} alt='Ryan Logo' width='250 px 250px'></img>
                 </Grid>
             </Grid>
         </>

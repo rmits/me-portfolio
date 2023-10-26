@@ -1,13 +1,25 @@
 .homeContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     background-image: url('../images/home-background.jpg');
     background-size: contain;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
     border: thin solid white;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .homeContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 .nameCard {
